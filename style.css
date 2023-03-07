@@ -1,0 +1,33 @@
+@keyframes backgroundColorPalette {
+    0% {
+      background: #921c57;
+    }
+    25% {
+      background: #88922e;
+    }
+    50% {
+      background: #8a4309;
+    }
+    75%{
+      background: blue;
+    }
+  }
+img{
+    height:200px ;
+    width:200px;
+    border-radius:50%;
+    float:left;
+    margin:0 auto; 
+    overflow:hidden
+}
+div{
+    text-align: left;
+    font-family: 'Golos Text', sans-serif;
+}
+#cont{
+    animation-name: backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
